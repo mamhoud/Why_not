@@ -29,7 +29,18 @@ intents:
 - handoff:
     triggers: utter_greet
 - help
+- what_call_name
+- what_language
+- phone_num
+- code_input
+- code_auth
+- open_accout
+- open_account
+- change_language
 entities:
+- call_name
+- activate_code
+- ph_num
 - amount-of-money
 - payment_amount
 - credit_card
@@ -45,11 +56,15 @@ slots:
     type: unfeaturized
   account_balance:
     type: unfeaturized
+  activate_code:
+    type: text
   amount_of_money:
     type: unfeaturized
   amount_transferred:
     type: unfeaturized
     initial_value: 0
+  call_name:
+    type: text
   confirm:
     type: unfeaturized
   credit_card:
@@ -73,6 +88,8 @@ slots:
   payment_amount_type:
     type: unfeaturized
     initial_value: ''
+  ph_num:
+    type: text
   requested_slot:
     type: unfeaturized
   search_type:
@@ -202,6 +219,14 @@ responses:
   - text: what's your name?
 actions:
 - action_account_balance
+- swithc_language_action
+- goodbye_action
+- greet_action
+- call_name_action
+- ask_language_action
+- authentication_action
+- language_select_action
+- validate_code_action
 - action_session_start
 - action_restart
 - action_credit_card_balance
@@ -254,6 +279,11 @@ actions:
 - utter_ask_whatelse
 - utter_help
 - transfer_form -->
+- utter_ok -->
+- utter_open_account
+- utter_open_tanks
+- open_account_action
+- ->
 forms:
 - cc_payment_form
 - transfer_form

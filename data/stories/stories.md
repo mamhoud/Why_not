@@ -1,11 +1,38 @@
-## greet/bye path
+##<!-- ## greet/bye path
 * greet
-  - utter_greet
-  - utter_help
+  - ask_language_action
+* what_call_name
+  - call_name_action
+* what_language
+  - language_select_action
+ -->
+
+## greet_auth path
+* greet
+  - ask_language_action
+* phone_num
+  - authentication_action
+* code_auth
+  - validate_code_action
+
+## open_account_path
+* open_account
+  - open_account_action
+
+## switch_language
+* change_language
+  - swithc_language_action
+<!-- ## greet/bye authinticate
+* greet
+  - ask_language_action
+* choose_language
+  - greet_action
+* call_name
+  - call_name_action -->
 
 ## say goodbye
 * goodbye
-  - utter_goodbye
+  - goodbye_action
 
 <!-- ## pay credit card and check account balance
 * pay_cc
@@ -68,7 +95,7 @@
     - transfer_form
     - form{"name": "transfer_form"}
     - form{"name": null}
-  
+
 ## transfer money ask known recipients
 * transfer_money
     - transfer_form
@@ -374,7 +401,7 @@
     - transfer_form -->
 
 
-## from Rasa X 56efe3eaf7c0456db86a6669421f885c
+<!-- ## from Rasa X 56efe3eaf7c0456db86a6669421f885c
 * help
     - utter_help
 * greet
@@ -390,4 +417,4 @@
     - utter_greet
     - utter_help
 * affirm
-    - utter_ok
+    - utter_ok -->

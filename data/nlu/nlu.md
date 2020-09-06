@@ -15,6 +15,24 @@
 - cool,
 - yes...
 
+## intent:change_language
+- switch my language to english
+- change language to english
+- chaneg my language
+- switch my language
+- switch language
+- hindura ururimi mu cyongereza
+- hindura ururimi mu cyongereza
+- hindura ururimi mu cyongereza
+- hindura ururimi
+- hindura ururimi
+- en 
+- kr
+- English
+- kinyarwanda
+- english
+- Kinyarwanda
+
 ## intent:ask_transfer_charge
 - Will I be charged for transferring money
 - do transfers cost something?
@@ -25,6 +43,85 @@
 - is there a transfer fee
 - is there a xfer fee
 - how much is the transfer fee
+
+## intent:open_accout
+- I need to open account
+- open account in ABbank
+- open account 
+- need to open account
+- ndashaka gufungura KONTI
+- fungura KONTI muri AB Bank
+- fungura KONTI
+- fungura KONTI
+## intent:phone_num
+- nimero yanjye ni 0134491212
+- nimero yanjye ni 013449312312
+- nimero yanjye ni 01344942442
+- nimero yanjye ni 0134494242
+- nimero yanjye ni 01344942442
+- my phone number is 01090059612
+- my phone is 0123124124
+- here is my phone number 100059992
+- my phone number is 0124212121
+- 0199945533 is my phone number
+- 233488347234
+- 3214123412341
+- 21342388349184
+- 341234124323
+## intent:code_auth
+- the code is 32423 
+- my code is 23412
+- code is 12312
+- my code 24124
+- my code 12431
+- 12555
+- 15521
+- 12324
+- 12214
+- 12223
+- 12312231 is that the code
+- code is 19994
+
+
+## intent:what_language
+- English
+- Kinearewanda
+- kinearewanda
+- english
+- my language is english
+- my language is kinearewanda
+- english is my language
+- kinearewanda is my language
+## intent:what_call_name
+- my name is [mahmoud](call_name)
+- my call name is [Froudouad](call_name)
+- I am [Dider](call_name)
+- me is [ameen](call_name)
+- [innavia](call_name)
+- [anoop](call_name)
+- my name  [Assa](call_name)
+- me [benjamen](call_name)
+- my name is [Froudouad](call_name)
+- my name is [ameen](call_name)
+- my name is [joi](call_name)
+- my name is [hamdy](call_name)
+- my name is [vasyl](call_name)
+- my name is [anniva](call_name)
+- my name is [mohammed](call_name)
+- my name is [Neoten](call_name)
+- my name is [galal](call_name)
+- my name is [neseem](call_name)
+- my name is [Oliver](call_name)
+- me is [Jack](call_name)
+- me is [Mason](call_name)
+- me is [ameen](call_name)
+- me is [Jacob](call_name)
+- me is [John](call_name)
+- [William](call_name)
+- [Reece](call_name)
+- [Oscar](call_name)
+- [Charles](call_name)
+- [Daniel](call_name)
 
 ## intent:check_balance
 - How much money is on my account?
@@ -113,7 +210,26 @@
 - BYEE
 - GOODBYE
 - Thanks a lot. See ya later
-
+- mwaramutse
+- muraho
+- muraho abahano
+- muraho
+- mwiriwe neza
+- muraho
+- muraho Rassa
+- muraho
+- muraho Sara
+- muraho
+- muraho. Muracyahari
+- muraho
+- muraho
+- muraho
+- muraho
+- muraho
+- muraho abahano
+- muraho abahano
+- muraho
+- muraho. Ni Ella
 ## intent:greet
 - good morning
 - hi
@@ -137,7 +253,26 @@
 - hello its ella
 - salama
 - muraho
-
+- mwaramutse
+- muraho
+- muraho abahano
+- muraho
+- mwiriwe neza
+- muraho
+- muraho Rassa
+- muraho
+- muraho Sara
+- muraho
+- muraho. Muracyahari
+- muraho
+- muraho
+- muraho
+- muraho
+- muraho
+- muraho abahano
+- muraho abahano
+- muraho
+- muraho. Ni Ella
 ## intent:inform
 - $10
 - 5000
